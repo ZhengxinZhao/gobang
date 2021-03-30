@@ -187,7 +187,7 @@ public class Ui extends JFrame {
                     //落子后，判断输赢
                     if (Model.weatherWin(c, r)) {
 
-                        String str = Model.getCurrentPlayer() ? "白棋胜利！" : "黑棋胜利！";
+                        String str = Model.getCurrentPlayer() ? "黑棋胜利！": "白棋胜利！";
                         JOptionPane.showMessageDialog(null, str);
                         return;
                     }
